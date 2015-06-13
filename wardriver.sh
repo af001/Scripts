@@ -6,10 +6,10 @@
 ##
 
 # Update the system
-echo "Updating system..."
+echo "[+] Updating system..."
 apt-get update && apt-get -y upgrade 
 
-echo "Installing packages..."
+echo "[+] Installing packages..."
 
 # Install packages
 apt-get -y install gpsd gpsd-clients python-imaging libosmgpsmap2 python-osmgpsmap python-pip parcellite cherrytree
@@ -42,6 +42,6 @@ rm kismon-0.6.tar.gz
 git clone https://github.com/peondusud/wardriving.git
 
 # Done
-echo "Installation complete!!"
+echo "[+] Installation complete!!"
 
 exit 0 
