@@ -5,11 +5,6 @@
 # Script by: th3gr1m 
 ##
 
-# Removing old versions && unused applications
-echo "[+] Removing old packages..."
-apt-get autoremove aircrack-ng
-apt-get autoremove
-
 # Updating the system
 echo "[+] Updating the system..."
 apt-get update && apt-get -y upgrade && apt-get -y dist-upgrade
