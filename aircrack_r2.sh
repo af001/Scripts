@@ -16,10 +16,10 @@ apt-get -y install libssl-dev pkg-config libsqlite3-dev libnl-dev libpcap-dev li
 # Install the newest version of Aircrack and tools
 echo "[+] Installing aircrack-ng and tools..."
 cd ~/Tools
-wget http://download.aircrack-ng.org/aircrack-ng-1.2-rc2.tar.gz
-tar -xzf aircrack-ng-1.2-rc2.tar.gz
-rm aircrack-ng-1.2-rc2.tar.gz
-mv aircrack-ng-1.2-rc2 aircrack
+wget http://download.aircrack-ng.org/aircrack-ng-1.2-rc4.tar.gz
+tar -xzf aircrack-ng-1.2-rc4.tar.gz
+rm aircrack-ng-1.2-rc4.tar.gz
+mv aircrack-ng-1.2-rc4 aircrack
 cd aircrack
 make sqlite=true experimental=true pcre=true
 make sqlite=true experimental=true pcre=true install
