@@ -5,11 +5,11 @@
 # References: http://coding-robin.de/2013/07/22/train-your-own-opencv-haar-classifier.html
 #             http://docs.opencv.org/2.4/opencv_tutorials.pdf
 
+# Download dependencies 
+apt-get update && apt-get -y install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev libdc1394-22-dev
+
 # Download tools
 git clone https://github.com/mrnugget/opencv-haar-classifier-training
-
-# Download dependencies 
-apt-get update && apt-get install build-essential cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev libdc1394-22-dev
 
 # Download and compile opencv
 wget https://github.com/Itseez/opencv/archive/2.4.13.zip
