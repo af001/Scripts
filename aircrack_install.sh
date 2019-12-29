@@ -2,7 +2,7 @@
 
 ##
 # aircrack-ng current version install script
-# Script by: th3gr1m 
+# Script by: Anton 
 ##
 
 # Updating the system
